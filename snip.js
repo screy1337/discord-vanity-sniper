@@ -40,7 +40,7 @@ const start = (ws_server) => {
       socket.send(JSON.stringify({
         op: 2,
         d: {
-          token: "MTIzNjYxMzQzNTcwMjI0NzQ5Ng.G-_HJj.ERYgE8P4nh__ai17kjFB32S9zfNvT4Yfb-9rws",
+          token: "TOKEN_GİR",
           intents: 513 << 0,
           properties: {
             os: "linux",
@@ -101,9 +101,9 @@ const requestt = (tlsSocket, code) => {
   const request_body = JSON.stringify({ code });
   const contentLength = Buffer.byteLength(request_body);
   tlsSocket.write(
-    `PATCH /api/v9/guilds/1234217983962775562/vanity-url HTTP/1.1\r\n` +
+    `PATCH /api/v9/guilds/SUNUCU_İD/vanity-url HTTP/1.1\r\n` +
     `Host: canary.discord.com\r\n` +
-    `Authorization: MTIzNjYxMzQzNTcwMjI0NzQ5Ng.G-_HJj.ERYgE8P4nh__ai17kjFB32S9zfNvT4Yfb-9rws\r\n` +
+    `Authorization: TOKEN_GİR\r\n` +
     `Content-Type: application/json\r\n` +
     `Content-Length: ${contentLength}\r\n\r\n` +
     request_body
