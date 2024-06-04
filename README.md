@@ -1,5 +1,5 @@
 # discord-vanity-sniper
 ;D
 -
-Beyniniz kullanmaya yetmiyosa denemeyin
+Çalıştırmaya yetecek beyniniz yoksa salın bu işleri
 -
